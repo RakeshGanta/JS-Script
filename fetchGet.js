@@ -10,6 +10,4 @@ export const func =async()=>{
         console.log(err);
         }
 }
-window.onload = function() {
-    func();
-  };
+func();
